@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="containter-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <h2>Reserve accomodation</h2>
+                <form name="mojaforma">
+                    <table>
+                        <tr>
+                            <td>Name:</td>
+                            <td>
+                                <input type="text" name="ime">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Surname:</td>
+                            <td>
+                                <input type="text" name="prezime">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Type of accomodation:</td>
+                            <td>
+                                <select name="tip">
+                                    <option>Hotel</option>
+                                    <option>Villa</option>
+                                    <option>Village house</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Number of nights:</td>
+                            <td>
+                                <input type="radio" name="br" value="3">3
+                                <input type="radio" name="br" value="5">5
+                                <input type="radio" name="br" value="7">7
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Phone:</td>
+                            <td>
+                                <input type="text" name="tel" placeholder="065/1234-567">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="button" value="Send" class="dugme" onclick="proveri()">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

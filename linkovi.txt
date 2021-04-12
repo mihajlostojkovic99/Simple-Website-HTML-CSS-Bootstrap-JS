@@ -1,0 +1,6 @@
+<!-- JavaScript -->
+https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js
+<!-- CSS -->
+https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css
+<!-- Default theme -->
+https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css
